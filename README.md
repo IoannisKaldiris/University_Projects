@@ -1,1 +1,1 @@
-# University_Projects
+## This is a repository containing my academic projects 
