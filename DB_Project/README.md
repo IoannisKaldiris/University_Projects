@@ -17,12 +17,12 @@ This application requires the use of an API to function.
 ## Front-End-Tools
 
 - [Redux](https://redux.js.org)
-- [React-Router)](https://reactrouter.com/en/main)
+- [React-Router](https://reactrouter.com/en/main)
 - [Chakra UI](https://v2.chakra-ui.com)
 
 ## Back-End-Tools
 
--**[express](https://expressjs.com)**
+-[express](https://expressjs.com)
 -
 ### Prerequisites
 
