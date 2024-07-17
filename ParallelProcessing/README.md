@@ -6,4 +6,4 @@ This software was developed as part of the course Software Engineering (CEID_109
 ### Team
 
 - [Ioannis Kaldiris](https://github.com/IoannisKaldiris)
-- 
+- [Αντωνία Καρρά]
