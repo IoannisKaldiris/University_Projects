@@ -1,1 +1,9 @@
-### This is a repository containing my academic projects 
+## About 
+
+This software was developed as part of the course Software Engineering (CEID_1092) at the **[Department of Computer Engineering and Informatics](https://www.ceid.upatras.gr/en/)** at the **[University of Patras](https://www.upatras.gr/en/)**.
+
+
+### Team
+
+-[Ioannis Kaldiris](https://github.com/IoannisKaldiris)
+- 
