@@ -22,8 +22,10 @@ This application requires the use of an API to function.
 
 ## Back-End-Tools
 
--[express](https://expressjs.com)
--
+- [express](https://expressjs.com)
+- [mysql](https://www.npmjs.com/package/mysql)
+- [cors](https://www.npmjs.com/package/cors)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 ### Prerequisites
 
 - Python 3.8+
