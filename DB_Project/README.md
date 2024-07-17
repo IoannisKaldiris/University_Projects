@@ -9,3 +9,15 @@ This software was developed as part of the course Software Engineering (CEID_24Y
 
 -[Ioannis Kaldiris](https://github.com/IoannisKaldiris)
 
+### API
+
+This application requires the use of an API to function.
+
+
+## Installation
+
+### Prerequisites
+
+- Python 3.8+
+- Pip
+- Virtualenv (Optional
