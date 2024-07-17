@@ -7,7 +7,7 @@ This software was developed as part of the course Software Engineering (CEID_24Y
 
 ### Team
 
--[Ioannis Kaldiris](https://github.com/IoannisKaldiris)
+- [Ioannis Kaldiris](https://github.com/IoannisKaldiris)
 
 
 ## Front-End-Tools
