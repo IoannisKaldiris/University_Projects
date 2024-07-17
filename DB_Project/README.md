@@ -14,8 +14,16 @@ This software was developed as part of the course Software Engineering (CEID_24Y
 This application requires the use of an API to function.
 
 
-## Installation
+## Front-End-Tools
 
+- [Redux](https://redux.js.org)
+- [React-Router)](https://reactrouter.com/en/main)
+- [Chakra UI](https://v2.chakra-ui.com)
+
+## Back-End-Tools
+
+-**[express](https://expressjs.com)**
+-
 ### Prerequisites
 
 - Python 3.8+
