@@ -20,4 +20,4 @@ This application requires the use of an API to function.
 
 - Python 3.8+
 - Pip
-- Virtualenv (Optional
+- Virtualenv (Optional)
