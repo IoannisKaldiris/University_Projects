@@ -1,0 +1,193 @@
+./scheduler FCFS homogeneous.txt
+
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+
+PID 3889 - CMD: ../work/work7
+        Elapsed time = 6.35 secs
+        Workload time = 6.35 secs
+
+PID 3914 - CMD: ../work/work7
+        Elapsed time = 12.69 secs
+        Workload time = 6.34 secs
+
+PID 3940 - CMD: ../work/work7
+        Elapsed time = 19.03 secs
+        Workload time = 6.34 secs
+
+PID 3966 - CMD: ../work/work7
+        Elapsed time = 25.41 secs
+        Workload time = 6.38 secs
+
+PID 3992 - CMD: ../work/work7
+        Elapsed time = 31.88 secs
+        Workload time = 6.46 secs
+
+WORKLOAD TIME: 31.88 secs
+scheduler exits
+
+
+
+./scheduler RR 1000 homogeneous.txt
+
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+Queue process with name ../work/work7
+
+PID 4020 - CMD: ../work/work7
+        Elapsed time = 29.32 secs
+        Workload time = 6.39 secs
+
+PID 4025 - CMD: ../work/work7
+        Elapsed time = 29.97 secs
+        Workload time = 6.36 secs
+
+PID 4029 - CMD: ../work/work7
+        Elapsed time = 30.62 secs
+        Workload time = 6.36 secs
+
+PID 4034 - CMD: ../work/work7
+        Elapsed time = 31.36 secs
+        Workload time = 6.35 secs
+
+PID 4039 - CMD: ../work/work7
+        Elapsed time = 31.83 secs
+        Workload time = 6.38 secs
+
+WORKLOAD TIME: 31.83 secs
+scheduler exits
+
+
+
+./scheduler FCFS reverse.txt
+
+Queue process with name ../work/work7
+Queue process with name ../work/work6
+Queue process with name ../work/work5
+Queue process with name ../work/work4
+Queue process with name ../work/work3
+Queue process with name ../work/work2
+Queue process with name ../work/work1
+
+PID 4151 - CMD: ../work/work7
+        Elapsed time = 6.36 secs
+        Workload time = 6.35 secs
+
+PID 4177 - CMD: ../work/work6
+        Elapsed time = 11.79 secs
+        Workload time = 5.44 secs
+
+PID 4199 - CMD: ../work/work5
+        Elapsed time = 16.36 secs
+        Workload time = 4.57 secs
+
+PID 4218 - CMD: ../work/work4
+        Elapsed time = 20.15 secs
+        Workload time = 3.79 secs
+
+PID 4235 - CMD: ../work/work3
+        Elapsed time = 22.91 secs
+        Workload time = 2.77 secs
+
+PID 4246 - CMD: ../work/work2
+        Elapsed time = 24.74 secs
+        Workload time = 1.82 secs
+
+PID 4255 - CMD: ../work/work1
+        Elapsed time = 25.65 secs
+        Workload time = 0.91 secs
+
+
+WORKLOAD TIME: 25.65 secs
+scheduler exits
+
+
+./scheduler RR 1000 reverse.txt
+
+Queue process with name ../work/work7
+Queue process with name ../work/work6
+Queue process with name ../work/work5
+Queue process with name ../work/work4
+Queue process with name ../work/work3
+Queue process with name ../work/work2
+Queue process with name ../work/work1
+
+PID 4291 - CMD: ../work/work1
+        Elapsed time = 6.94 secs
+        Workload time = 0.93 secs
+
+PID 4286 - CMD: ../work/work2
+        Elapsed time = 12.38 secs
+        Workload time = 1.84 secs
+
+PID 4281 - CMD: ../work/work3
+        Elapsed time = 17.11 secs
+        Workload time = 2.73 secs
+
+PID 4276 - CMD: ../work/work4
+        Elapsed time = 20.89 secs
+        Workload time = 3.68 secs
+
+PID 4271 - CMD: ../work/work5
+        Elapsed time = 23.66 secs
+        Workload time = 4.57 secs
+
+PID 4266 - CMD: ../work/work6
+        Elapsed time = 25.15 secs
+        Workload time = 5.50 secs
+
+PID 4261 - CMD: ../work/work7
+        Elapsed time = 25.64 secs
+        Workload time = 6.40 secs
+
+
+WORKLOAD TIME: 25.64 secs
+scheduler exits
+
+
+./scheduler_io FCFS mixed.txt
+Queue process with name ../work/work5x2_io
+Queue process with name ../work/work7
+Queue process with name ../work/work6
+
+PID 4389 - CMD: ../work/work7
+        Elapsed time = 11.09 secs
+        Workload time = 6.47 secs
+
+PID 4415 - CMD: ../work/work6
+        Elapsed time = 16.60 secs
+        Workload time = 5.50 secs
+
+PID 4370 - CMD: ../work/work5x2_io
+        Elapsed time = 21.21 secs
+        Workload time = 9.23 secs
+
+WORKLOAD TIME: 21.21 secs
+scheduler exits
+
+
+./scheduler_io RR 1000 mixed.txt
+
+Queue process with name ../work/work5x2_io
+Queue process with name ../work/work7
+Queue process with name ../work/work6
+                  
+PID 4467 - CMD: ../work/work6
+        Elapsed time = 15.71 secs
+        Workload time = 5.54 secs
+
+PID 4462 - CMD: ../work/work7
+        Elapsed time = 17.58 secs
+        Workload time = 6.47 secs
+
+PID 4457 - CMD: ../work/work5x2_io
+        Elapsed time = 21.17 secs
+        Workload time = 9.16 secs
+
+WORKLOAD TIME: 21.17 secs
+scheduler exits
