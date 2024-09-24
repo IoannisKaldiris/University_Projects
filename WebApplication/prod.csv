@@ -1,0 +1,34 @@
+id,name,baseQuantity,category
+16,Water,110,Beverages
+17,Orange juice,0,Beverages
+18,Sardines,0,Food
+19,Canned corn,0,Food
+20,Bread,0,Food
+21,Chocolate,0,Food
+22,Men Sneakers,0,Clothing
+24,Test Val,0,Flood
+25,Spaghetti,0,Food
+26,Croissant,0,Food
+30,Bandages,0,Medical Supplies
+31,Disposable gloves,0,Medical Supplies
+35,Painkillers,0,Medical Supplies
+36,Blanket,0,Clothing
+38,Menstrual Pads,0,Personal Hygiene
+39,Tampon,0,Personal Hygiene
+40,Toilet Paper,0,Personal Hygiene
+41,Baby wipes,0,Personal Hygiene
+42,Toothbrush,0,Personal Hygiene
+43,Toothpaste,0,Personal Hygiene
+44,Vitamin C,0,Medical Supplies
+45,Multivitamines,0,Medical Supplies
+46,Paracetamol,0,Medical Supplies
+47,Ibuprofen,0,Medical Supplies
+85,Coca Cola,0,Beverages
+86,spray,0,Insect Repellents
+87,Outdoor spiral,0,Insect Repellents
+88,Baby bottle,0,Baby Essentials
+89,Pacifier,0,Baby Essentials
+90,Condensed milk,0,Food
+91,Cereal bar,0,Food
+196,Bar,10,Food
+

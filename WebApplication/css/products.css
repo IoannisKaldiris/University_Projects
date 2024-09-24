@@ -1,0 +1,253 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  max-height: 80vh;
+  overflow-y: scroll;
+  margin: 20px;
+}
+
+.product {
+  width: 225px;
+  aspect-ratio: 1.2/1;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid #4caf50;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: 0.2s;
+  position: relative;
+}
+.product:hover {
+  transform: scale(105%);
+}
+
+.product-category {
+  font-size: small;
+}
+
+.product-title {
+  width: fit-content;
+  font-size: xx-large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product-btn {
+  padding: 5px 10px;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-wrapper {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-wrapper input {
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+  text-align: center;
+}
+
+.modal-wrapper input:focus {
+  border: 2px solid #387c3a;
+  outline: none;
+}
+
+.product-details {
+  padding: 10px;
+  border: 3px solid #4caf50;
+  text-align: center;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.detail > * {
+  margin: 3px;
+}
+
+.apply-btn {
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background-color: #387c3a;
+}
+
+.delete-product-btn {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  border-radius: 50%;
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-product-btn:hover {
+  color: rgb(148, 21, 21);
+  border-color: rgb(148, 21, 21);
+}
+
+.detail-apply-btn {
+  width: 50px;
+  height: 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+.detail-apply-btn:hover {
+  background-color: #387c3a;
+}
+
+.add-detail-btn {
+  width: 50px;
+  height: 20px;
+  border: none;
+  border-radius: 2px;
+  background-color: #4caf50;
+  cursor: pointer;
+}
+.add-detail-btn:hover {
+  background-color: #387c3a;
+}
+
+.add-product-btn {
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: transparent;
+  color: #4caf50;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.autocomplete-wrapper {
+  width: 55%;
+  margin: 20px;
+}
+
+.autocomplete-wrapper #autocomplete {
+  width: 79%;
+  font-size: large;
+  min-height: 25px;
+  margin: auto;
+  box-shadow: none;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  outline: none;
+}
+.autocomplete-wrapper #autocomplete:focus {
+  border-color: #387c3a;
+}
+.autocomplete-wrapper option {
+  color: #4caf50;
+  background-color: white;
+  border: transparent;
+  box-shadow: rgb(148, 21, 21);
+}
+
+.autocomplete-wrapper #categories {
+  width: 19%;
+  font-size: large;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+}
+
+.ui-menu-item {
+  list-style-type: none;
+  background-color: white;
+  color: #4caf50;
+  border-bottom: 2px solid #4caf50;
+  font-size: large;
+  cursor: pointer;
+}
+
+.ui-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ui-helper-hidden-accessible {
+  display: none;
+}
+
+.file-input {
+  border-bottom: 4px solid #4caf50;
+  border-right: 4px solid #4caf50;
+  border-top: 1px solid #4caf50;
+  border-left: 1px solid #4caf50;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.initialize-btn {
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.2s;
+}
+.initialize-btn:hover {
+  border-color: #387c3a;
+}
+
+.product-base-quantity {
+  display: flex;
+}
+
+.product-base-quantity > * {
+  margin-left: 10px;
+}
+
+.product .title {
+  width: fit-content;
+  font-size: xx-large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.product .quantity {
+  font-size: medium;
+}
+
+.product .date {
+  font-size: small;
+}
+
+.canceled {
+  border-color: gray;
+}
+.canceled:hover {
+  transform: scale(100%);
+}
+
+.max-height-400 {
+  max-height: 400px;
+}
