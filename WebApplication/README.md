@@ -1,0 +1,6 @@
+## About 
+
+This project was developed as part of the course Software Engineering (CEID_1092) at the **[Department of Computer Engineering and Informatics](https://www.ceid.upatras.gr/en/)** at the **[University of Patras](https://www.upatras.gr/en/)**.
+
+
+
