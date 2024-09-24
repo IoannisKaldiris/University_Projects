@@ -16,17 +16,17 @@ This project implements a comprehensive system for managing business information
 
 ## Technologies Used
 
-- **BASH**: For shell scripting and creating a user-friendly command-line interface. 
-- **C Programming Language**: For implementing the Monte Carlo integration with multi-processing.
-- **Makefile**: To manage the build process of the C programs.
-- **Shared Memory and Semaphores**: For inter-process communication and synchronization in concurrent tasks.
-- **AWK and SED**: For text processing within the shell script.
+- **[BASH](https://www.gnu.org/software/bash/)**: For shell scripting and creating a user-friendly command-line interface. 
+- **[C Programming Language](https://en.wikipedia.org/wiki/C_(programming_language))**: For implementing the Monte Carlo integration with multi-processing.
+- **[Makefile](https://www.gnu.org/software/make/)**: To manage the build process of the C programs.
+- **[Shared Memory](https://en.wikipedia.org/wiki/Shared_memory)** and **[Semaphores](https://en.wikipedia.org/wiki/Semaphore_(programming))**: For inter-process communication and synchronization in concurrent tasks.
+- **[AWK](https://awk.js.org/)** and **[SED](https://en.wikipedia.org/wiki/Sed)**: For text processing within the shell script.
 
 ## Prerequisites
 
 - A Unix-like operating system (Linux, macOS)
 - BASH shell
-- GCC compiler for C
+- [GCC](https://gcc.gnu.org/) compiler for C
 - Basic knowledge of shell scripting and process management
 
 
