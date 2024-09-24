@@ -29,13 +29,6 @@ This project implements a comprehensive system for managing business information
 - GCC compiler for C
 - Basic knowledge of shell scripting and process management
 
-## Getting Started
-
-To get started, clone this repository and follow the instructions in the `INSTALL.md` file for setting up the environment and running the scripts.
-
-## Contribution
-
-Feel free to contribute by submitting pull requests or reporting issues.
 
 ## License
 
