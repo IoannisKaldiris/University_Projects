@@ -13,6 +13,7 @@ The project includes:
 
 For more information on the Rosenbrock function, refer to [Rosenbrock Function on Wikipedia](http://en.wikipedia.org/wiki/Rosenbrock_function).
 
+### Prerequisites
 
 ### MPI 
 1. [OpenMPI](https://www.open-mpi.org/)
