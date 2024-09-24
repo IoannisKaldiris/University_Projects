@@ -30,7 +30,3 @@ This project implements a comprehensive system for managing business information
 - Basic knowledge of shell scripting and process management
 
 
-## License
-
-This project is licensed under the MIT License.
-
