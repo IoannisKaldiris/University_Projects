@@ -3,9 +3,6 @@
 This project was developed as part of the course Software Engineering (CEID_1135) at the **[Department of Computer Engineering and Informatics](https://www.ceid.upatras.gr/en/)** at the **[University of Patras](https://www.upatras.gr/en/)**.
 
 
-
-# Business Management System
-
 This project implements a comprehensive system for managing business information using BASH scripting, parallel processing, and synchronization techniques. It features a menu-driven interface that allows users to select business files, view details, modify entries, display records, and save changes.
 
 ## Key Features
