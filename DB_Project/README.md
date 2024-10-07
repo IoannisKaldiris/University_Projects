@@ -6,11 +6,6 @@ This software was developed as part of the course Software Engineering (CEID_24Y
 
 This project focuses on building a relational database system for an on-demand movie service provider. 
 
-### Team
-
-- [Ioannis Kaldiris](https://github.com/IoannisKaldiris)
-
-
 ## Front-End-Tools
 
 - [Redux](https://redux.js.org)
