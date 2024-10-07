@@ -4,9 +4,7 @@
 
 This software was developed as part of the course Software Engineering (CEID_24Y334) at the **[Department of Computer Engineering and Informatics](https://www.ceid.upatras.gr/en/)** at the **[University of Patras](https://www.upatras.gr/en/)**. It has two objectives. First, to familiarize yourself with the design, implementation, data input, and processing in a relational Database (DB). Second, to use JDBC technology to connect the DB with Graphical User Interfaces (GUIs) implemented in Java, gaining experience in designing a more complete application.  
 
-A relational DB schema is provided, covering part of the specifications mentioned in the following description. As part of the project, you will study the relational schema of the DB, extend it with additional fields and new tables, and insert an appropriate number of records. Note that the database resembles the one used in lab exercises, ensuring a better understanding of the problem you'll be managing.  
-
-It is noted that the functional specifications might be incomplete or contain ambiguities, so you may need to make some assumptions. Your assumptions should be realistic and clearly documented in your report.
+As part of the project, you will study the relational schema of the DB, extend it with additional fields and new tables, and insert an appropriate number of records. Note that the database resembles the one used in lab exercises, ensuring a better understanding of the problem you'll be managing.  
 
 ### Description:
 The DB concerns an on-demand movie service for a TV content provider. The following functional requirements are covered by the provided relational schema:  
