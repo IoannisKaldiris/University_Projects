@@ -4,7 +4,7 @@
 
 This software was developed as part of the course Software Engineering (CEID_24Y334) at the **[Department of Computer Engineering and Informatics](https://www.ceid.upatras.gr/en/)** at the **[University of Patras](https://www.upatras.gr/en/)**. 
 
-This project focuses on building a relational database system for an on-demand movie service provider. 
+This project focuses on building a relational database system for an on-demand movie service provider. The UI is made with React
 
 ## Front-End-Tools
 
