@@ -1,5 +1,0 @@
-docker system prune -a   #delete all
-
-docker network create chord_network  # Create new network
-
-docker-compose up --build
