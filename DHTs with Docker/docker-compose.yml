@@ -1,0 +1,72 @@
+version: '3.8'
+
+networks:
+  chord_network:
+    driver: bridge
+
+services:
+  node0:
+    build: .
+    container_name: node0
+    ports:
+      - "5300:5300"
+    environment:
+      - NODE_ID=0
+      - BASE_PORT=5300
+    networks:
+      - chord_network
+
+  node1:
+    build: .
+    container_name: node1
+    ports:
+      - "5301:5301"
+    environment:
+      - NODE_ID=1
+      - BASE_PORT=5300
+    networks:
+      - chord_network
+
+  node2:
+    build: .
+    container_name: node2
+    ports:
+      - "5302:5302"
+    environment:
+      - NODE_ID=2
+      - BASE_PORT=5300
+    networks:
+      - chord_network
+
+  node3:
+    build: .
+    container_name: node3
+    ports:
+      - "5303:5303"
+    environment:
+      - NODE_ID=3
+      - BASE_PORT=5300
+    networks:
+      - chord_network
+
+  node4:
+    build: .
+    container_name: node4
+    ports:
+      - "5304:5304"
+    environment:
+      - NODE_ID=4
+      - BASE_PORT=5300
+    networks:
+      - chord_network
+
+  node5:
+    build: .
+    container_name: node5
+    ports:
+      - "5305:5305"
+    environment:
+      - NODE_ID=5
+      - BASE_PORT=5300
+    networks:
+      - chord_network
